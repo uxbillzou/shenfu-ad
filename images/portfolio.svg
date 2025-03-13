@@ -1,0 +1,38 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .portfolio-title { font-family: Arial; font-size: 24px; fill: #333; text-anchor: middle; }
+    .portfolio-desc { font-family: Arial; font-size: 16px; fill: #666; text-anchor: middle; }
+  </style>
+
+  <!-- 作品1：平面设计 -->
+  <g transform="translate(200,150)">
+    <rect width="200" height="200" rx="10" fill="#4158D0" opacity="0.9"/>
+    <path d="M50,100 L150,100 M100,50 L100,150" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    <text class="portfolio-title" x="100" y="240">平面设计</text>
+    <text class="portfolio-desc" x="100" y="270">品牌VI设计</text>
+  </g>
+
+  <!-- 作品2：广告创意 -->
+  <g transform="translate(600,150)">
+    <rect width="200" height="200" rx="10" fill="#C850C0" opacity="0.9"/>
+    <circle cx="100" cy="100" r="50" fill="none" stroke="white" stroke-width="8"/>
+    <text class="portfolio-title" x="100" y="240">广告创意</text>
+    <text class="portfolio-desc" x="100" y="270">创意广告设计</text>
+  </g>
+
+  <!-- 作品3：品牌形象 -->
+  <g transform="translate(1000,150)">
+    <rect width="200" height="200" rx="10" fill="#4158D0" opacity="0.9"/>
+    <polygon points="100,50 150,150 50,150" fill="white"/>
+    <text class="portfolio-title" x="100" y="240">品牌形象</text>
+    <text class="portfolio-desc" x="100" y="270">品牌形象设计</text>
+  </g>
+
+  <!-- 作品4：数字营销 -->
+  <g transform="translate(200,450)">
+    <rect width="200" height="200" rx="10" fill="#C850C0" opacity="0.9"/>
+    <rect x="75" y="75" width="50" height="50" fill="white"/>
+    <text class="portfolio-title" x="100" y="540">数字营销</text>
+    <text class="portfolio-desc" x="100" y="570">社交媒体营销</text>
+  </g>
+</svg>

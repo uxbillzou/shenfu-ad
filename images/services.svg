@@ -1,0 +1,26 @@
+<svg width="900" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .icon-text { font-family: Arial; font-size: 24px; fill: #333; text-anchor: middle; }
+  </style>
+  
+  <!-- 创意设计图标 -->
+  <g transform="translate(150,150)">
+    <circle cx="0" cy="0" r="60" fill="#4158D0" opacity="0.9"/>
+    <path d="M-30,-20 L30,20 M-30,20 L30,-20" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    <text class="icon-text" x="0" y="100">创意设计</text>
+  </g>
+
+  <!-- 数字营销图标 -->
+  <g transform="translate(450,150)">
+    <circle cx="0" cy="0" r="60" fill="#C850C0" opacity="0.9"/>
+    <path d="M-20,-20 L20,-20 L0,30 Z" fill="white"/>
+    <text class="icon-text" x="0" y="100">数字营销</text>
+  </g>
+
+  <!-- 品牌策划图标 -->
+  <g transform="translate(750,150)">
+    <circle cx="0" cy="0" r="60" fill="#4158D0" opacity="0.9"/>
+    <rect x="-25" y="-25" width="50" height="50" fill="none" stroke="white" stroke-width="8"/>
+    <text class="icon-text" x="0" y="100">品牌策划</text>
+  </g>
+</svg>
